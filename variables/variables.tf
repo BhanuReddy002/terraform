@@ -7,7 +7,7 @@
 variable "ami_id" {
     type =  string
     default = "ami-09c813fb71547fc4f"
-    description = "This is AMI of DevOps-pratice"    
+    description = "This is AMI of devops-practice which is RHEL-9"    
 }
 
 variable "instance_type" {
@@ -27,7 +27,7 @@ variable "tags"{
 }
 
 variable "sg_name" {
-  default = "allow_ssh"
+  default = "allow_sshh"
 }
 
 variable "sg_description"{
@@ -44,7 +44,7 @@ variable "to_port" {
     type = number
 }
 
-variable "protocal" {
+variable "protocol" {
     default = "tcp"
 }
 
